@@ -3,6 +3,12 @@
 
 # Answer: 233168
 
+import os
+import sys
+
+root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+sys.path.insert(0, root_dir)
+
 import runlikehell as rh
 
 LIMIT = 1000
